@@ -1,0 +1,51 @@
+{
+  "apiSent": {
+    "to": "bpdv6xsms",
+    "data": [
+      {
+        "3": {
+          "value": 1
+        },
+        "30": {
+          "value": "not editable"
+        },
+        "19": {
+          "value": [
+            "one",
+            "two"
+          ]
+        }
+      }
+    ],
+    "fieldsToReturn": [
+      3,
+      30,
+      19
+    ]
+  },
+  "apiReplyHeaders": {
+    "statusCode Not sent in header": 207
+    "content-length": "211",
+    "content-type": "application/json; charset=UTF-8",
+    "qb-api-ray": "5827f5b0-ab96-11eb-810c-0a8d8e61b91d",
+    "x-ratelimit-limit": "10",
+    "x-ratelimit-remaining": "9",
+    "x-ratelimit-reset": "999"
+  },
+  apiReply: {
+    "data": [],
+    "metadata": {
+      "createdRecordIds": [],
+      "lineErrors": {
+        "1": [
+          "Can not change the value of the formula field with ID \"30\"."
+        ]
+      },
+      "totalNumberOfRecordsProcessed": 1,
+      "unchangedRecordIds": [],
+      "updatedRecordIds": []
+    }
+  }
+}
+
+

@@ -1,0 +1,23 @@
+Postman tests in Quickbase Modular
+
+
+Create a smaller version of QB that performs most used functions including:
+All operations under records
+Additional Upload file using old api call (needs xml)
+Also need get tables (returns table ids and alias)
+Additionally the getfields
+Authentication (independent module)
+
+require configuration like
+{ appTableId: xxxxx,
+    tables: [
+    _alias_name, application(view) Name,
+    fields: [{fid, appName, fieldType}, ...]  // fieldType drives fetch and store functions
+]}
+
+
+Simplify Row Object (make consistent with basic objects in Javascript)
+
+
+Consistent return structure:
+{status: {ok: true, hasErrors: true, code: 200}, errorRows: [], allRows:[]}
