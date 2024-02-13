@@ -21,4 +21,5 @@ Simplify Row Object (make consistent with basic objects in Javascript)
 
 Consistent return structure:
 {status: {ok: true, hasErrors: true, code: 200}, errorRows: [], allRows:[]}
-xxx
+New comments test git update #2
+GIT Update
